@@ -42,7 +42,7 @@ let s1Yes, s1No, s2Yes, s2No, s3Yes, s3No, s4Yes, s4No, onFinalYes;
 s2Yes = function() {
   yesBtn.removeEventListener('click', s2Yes);
   noBtn.removeEventListener('click', s2No);
-  setQuestion('Hehehe!! I knew it 🥰');
+  setQuestion("Hehehe!! I knew it, Love mo'ko 🥰");
   setGif('images/love.gif');
   hideButtons();
 };
@@ -50,7 +50,7 @@ s2Yes = function() {
 s3Yes = function() {
   yesBtn.removeEventListener('click', s3Yes);
   noBtn.removeEventListener('click', s3No);
-  setQuestion('Hehehe, I knew it! 🥰');
+  setQuestion("Hehehe!! I knew it, Love mo'ko 🥰");
   setGif('images/love.gif');
   hideButtons();
 };
@@ -58,14 +58,14 @@ s3Yes = function() {
 s4Yes = function() {
   yesBtn.removeEventListener('click', s4Yes);
   noBtn.removeEventListener('click', s4No);
-  setQuestion('Hehehe, I knew it! 🥰');
+  setQuestion("Hehehe!! I knew it, Love mo'ko 🥰");
   setGif('images/love.gif');
   hideButtons();
 };
 
 onFinalYes = function() {
   noBtn.removeEventListener('click', onFinalYes);
-  setQuestion('Hehehe, I knew it! 🥰');
+  setQuestion("Hehehe!! I knew it, Love mo'ko 🥰");
   setGif('images/love.gif');
   hideButtons();
 };
